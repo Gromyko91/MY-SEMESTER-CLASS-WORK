@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Maagement System</title>
+    <style>
+      body{
+        font-family: Arial,sans-serif; margin: 0; padding: 0;
+      }
+      header{background-color: #4caf50; color: white; text-align: center; padding: 1em 0;}
+      nav{display: flex; justify-content: space-around; background-color: #333; padding: 1em;}
+      nav a{ color: white; text-decoration: none; padding: 0.5em 1em;}
+      nav a:hover{background-color: #08c518;}
+      section{padding: 2em;}
+    </style>
+</head>
+<body>
+    <header>Employee Maagement System</header><br>
+    <nav>
+      <a href="#registration">Registration</a>
+      <a href="#login">Login</a>
+      <a href="#departments">Departments</a>
+      <a href="#finance">Finance</a>
+      <a href="#procurement">Procurement</a>
+      <a href="leave">Leave</a>
+    </nav>
+    <section>
+  <h4>REGISTRATION</h4>
+  <form action="">
+    <label for="name">Firstname</label>
+    <input type="text" id="name" name="firstname"><br><br>
+    <label for="name">Lastname</label>
+    <input type="text" id="name" name="lastname"><br><br>
+    <label for="email">EMAIL</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="dateofbirth">DOB</label>
+    <input type="date" id="date" name="dateofbirth"><br><br>
+    <label for="gender">GENDER:</label><br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female <br><br>
+<label for="number">Phone no:</label><br>
+<input type="number" name="number" id="number" placeholder="+254..."><br><br>
+<button type="submit" name="submit">Register</button>
+  </form>
+  <h4>LOGIN</h4>
+  <form action="">
+    <label for="Username">Username</label>
+<input type="text" id="username" name="username"><br>
+Password: <input type="text" id="Password">
+           <button type="submit" name="submit">🚢Login</button><br><br>
+           <a href="reset.html">Forgot Your Password?
+  </form>
+  <h4>Leave</h4>
+  <form action="">
+    <label for="leave">My reason for leave is...</label><br>
+        <textarea name="leave" id="leave" rows="4" cols="100">(no more than 300 characters long)</textarea>
+        <br><br>
+  </form>
+  <h4>Department</h4>
+  <form action="">
+    <fieldset>
+      <legend>Departments(<i>Choose one</i>)</legend> 
+      <input type="radio" name="department">Transport <br>
+      <input type="radio" name="department">Medicine <br>
+      <input type="radio" name="department">Teaching <br>
+      <input type="radio" name="department">Security <br>
+  </fieldset>
+  </form>
+  <h4>Procurement</h4>
+  <form action="">
+    <label for="Procurement">this is...</label><br>
+    <textarea name="Procurement" id="Procurement" rows="4" cols="100">(no more than 300 characters long)</textarea>
+    <br><br>
+  </form>
+  <h4>Finance</h4>
+  <form action="">login to see your finance please</form>
+</section>
+</body>
+</html>
