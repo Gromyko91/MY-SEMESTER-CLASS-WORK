@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{color: rgb(141, 141, 231);padding-left: 5px;}
+    button{background-color: whitesmoke; 
+    }
+    .current-details{color: red;}
+    .email {
+             border: 4px rgb(177, 177, 245) solid;
+             width: 700px;
+             height: 250px;
+             margin-left: 50px;
+             }
+    label{padding-left: 20px;}
+</style>
+<body>
+    <div class="email">
+    <h1><strong>Please join our email list</strong></h1>
+    <form action="">
+        <label for="email" style="padding-left: 80px;">Email Address</label>
+        <input type="email" id="email" name="Email Address" placeholder="grace@yahoo.com"><br><br>
+        <label for="email"> Re-enter Email Address</label>
+        <input type="email" id="email" name="Email Address"> 
+        <span style="color: red;">This entry must equal first entry</span><br><br>
+        <label for="text" style="padding-left: 102px;">First Name</label>
+        <input type="text" id="text" name="Firstname">
+         <span style="color: red;">This field is required</span><br><br>
+       <span style="padding-left: 170px;"> <button type="submit" value="Join our List">Join our List</button></span>
+    </form>
+    </div>
+</body>
+</html>
